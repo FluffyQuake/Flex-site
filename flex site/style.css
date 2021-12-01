@@ -1,0 +1,352 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.Fe {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Fe div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fe p {
+    color: white;
+}
+
+.Fs {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Fs div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fs p {
+    color: white;
+}
+
+.Sb {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Sb div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sb p {
+    color: white;
+}
+
+.Sa {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Sa div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sa p {
+    color: white;
+}
+
+.Se {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Se div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Se p {
+    color: white;
+}
+
+.Center {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Center div {
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 15px 15px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Center p {
+    color: white;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    background-color: #14468a;
+    height: 398px;
+    color: #fff;
+    font-size: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.KTP{
+    height: 200px;
+    width: 250px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 15px;
+}
+img {
+    object-fit: contain;
+    width: 150px;
+    height: 60px;
+}
+.button{
+    border: none;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button2 :hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.grid-item{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 75px;
+    width: 175px;
+    margin-right: 10px  ;
+}
+.des{
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, sans-serif;
+    margin-bottom: 60px;
+}
+
+.ÜK{
+    line-height: 30px;
+    font-family: Rubik, sans-serif;
+}
+
+.OK{
+    line-height: 30px;
+    font-family: Rubik, sans-serif;
+    
+}
+.ÜK-daddy{
+    margin-bottom: 150px;
+    font-family: Rubik, sans-serif;
+}
+.OK-daddy{
+    margin-bottom: 150px;
+    font-family: Rubik, sans-serif;
+}
+.header {
+    height: 300px;
+    width: 100%;
+}
+
+.ametilogo img {
+    height: 95px;
+    width: 435px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.links a {
+    font-family: Rubik, sans-serif;
+    color: #14468a;
+    text-decoration: none;
+}
+
+.lowerheader a {
+    color: #14468a;
+    text-decoration: none;
+    font-family: Rubik, sans-serif;
+    height: 50px;
+    margin-top: 50px;
+}
+.upperheader a:hover{
+    border-bottom: solid 1px black;
+}
+.lowerheader a:hover {
+    border-bottom: solid 3px black;
+}
+
+.upperheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.lowerheader {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 481px) {
+    #main, #subnav{
+        float: left;
+        padding: 0;
+        margin: 0;
+        width: 94%;
+    }
+    .Fe div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .Fs div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .Sb div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .Sa div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .Se div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .Center div{
+        height: 25px;
+        width: 25px;
+        margin: 10px;
+    }
+    .footer {
+        flex-direction: column;
+        position: relative;
+    }
+    .lowerheader{
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+    .header{
+        
+    }
+    .ametilogo {
+        display: none;
+    }
+    .KTP{
+        display: none;
+    }
+    .ÜK{
+        flex-direction: wrap;
+        justify-content: end;
+    }
+    .ÜK-daddy{
+        position: fixed;
+    }
+}
